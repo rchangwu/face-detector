@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Detector and Classifier</title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script type="text/javascript" src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    
+</head>
+
+<body style="background-color:#AAAAAA; margin: 0; padding: 0">
+<video id="webcam-video" autoplay="" width="640"></video>
+<canvas id="info-canvas" width="640" height="480" style="position:absolute;top:0;left:0;"></canvas>
+<br>
+<h2>Upload Custom Image Here</h2>
+<input type="file" id="customimg" name="customimg" accept="image/jpeg">
+<button id="learn-button" type="button">Learn</button>
+<br>
+<h2>Learned Subjects</h2>
+<ul id="dynamic-list"></ul>
+
+<script type="text/javascript" src="static/js/facedetect_fe.js"></script>
+
+</body>
+</html>

@@ -18,7 +18,8 @@ install virtualenv as root:
 sudo pip install --upgrade pip setuptools wheel  
 sudo pip install virtualenv
 
-From a Python 2 environment, install PIP requirements from the requirements.txt file.
+From a Python 2 environment, install PIP requirements from the requirements.txt file:  
+pip install -r requirements.txt
 
 Start the server using this command:  
 `uwsgi --http :8080 --gevent 1000 --http-websockets --master --wsgi-file server.py --callable app`

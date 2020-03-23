@@ -13,7 +13,6 @@ yum -y install cmake
 yum -y install python-devel  
 yum -y install python-pip  
 yum -y install gcc  
-yum -y install uwsgi  
 
 install virtualenv as root:
 sudo pip install --upgrade pip setuptools wheel

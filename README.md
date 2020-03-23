@@ -14,8 +14,8 @@ yum -y install python-devel
 yum -y install python-pip  
 yum -y install gcc  
 
-install virtualenv as root:
-sudo pip install --upgrade pip setuptools wheel
+install virtualenv as root:  
+sudo pip install --upgrade pip setuptools wheel  
 sudo pip install virtualenv
 
 From a Python 2 environment, install PIP requirements from the requirements.txt file.

@@ -19,5 +19,5 @@ sudo pip install virtualenv
 
 From a Python 2 environment, install PIP requirements from the requirements.txt file.
 
-Start the server using this command:
+Start the server using this command:  
 `uwsgi --http :8080 --gevent 1000 --http-websockets --master --wsgi-file server.py --callable app`
